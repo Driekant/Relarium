@@ -6,6 +6,7 @@ CONFIGFOLDER='/root/.relarium'
 COIN_DAEMON='relariumd'
 COIN_CLI='relarium-cli'
 COIN_PATH='/usr/local/bin/'
+COIN_REPO='https://github.com/Relarium/Relarium'
 COIN_TGZ='https://github.com/Driekant/Relarium/releases/download/1.0.0.2/relarium.tgz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='relarium'
