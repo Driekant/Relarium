@@ -11,7 +11,7 @@ COIN_TGZ='https://github.com/Driekant/Relarium/releases/download/1.0.0.3/relariu
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='relarium'
 COIN_PORT=24620
-RPC_PORT=24630
+RPC_PORT=24621
 
 
 NODEIP=$(curl -s4 icanhazip.com)
