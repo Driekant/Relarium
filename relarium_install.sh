@@ -2,7 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='relarium.conf'
-CONFIGFOLDER='/root/.relariumcore'
+CONFIGFOLDER='/root/.relarium'
 COIN_DAEMON='relariumd'
 COIN_CLI='relarium-cli'
 COIN_PATH='/usr/local/bin/'
