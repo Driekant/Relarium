@@ -4,8 +4,8 @@ Shell script to install a [Relarium Masternode](https://relarium.com/) on a Linu
 ***
 ## Installation:
 ```
-wget -q https://raw.githubusercontent.com/Driekant/Relarium/master/Relarium_install.sh
-bash Relarium_install.sh
+wget -q https://raw.githubusercontent.com/Driekant/Relarium/master/relarium_install.sh
+bash relarium_install.sh
 ```
 ***
 
