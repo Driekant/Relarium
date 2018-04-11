@@ -1,20 +1,20 @@
-# Tec-AX
-Shell script to install a [Tec-AX Masternode](https://www.tecaxcrypto.com/) on a Linux server running Ubuntu 16.04. Use it on your own risk.
+# Relarium
+Shell script to install a [Relarium Masternode](https://www.Relariumcrypto.com/) on a Linux server running Ubuntu 16.04. Use it on your own risk.
 
 ***
 ## Installation:
 ```
-wget -q https://raw.githubusercontent.com/zoldur/Tecax/master/tecax_install.sh
-bash tecax_install.sh
+wget -q https://raw.githubusercontent.com/zoldur/Relarium/master/Relarium_install.sh
+bash Relarium_install.sh
 ```
 ***
 
 ## Desktop wallet setup
 
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps for Windows Wallet
-1. Open **Tecax Core Wallet**.
+1. Open **Relarium Core Wallet**.
 2. Go to RECEIVE and create a New Address: **MN1**
-3. Send **1000** **TECAX** to **MN1**.
+3. Send **1000** **Relarium** to **MN1**.
 4. Wait for 15 confirmations.
 5. Go to **Tools -> "Debug console - Console"**
 6. Type the following command: **masternode outputs**
@@ -36,18 +36,18 @@ Alias Address Privkey TxHash Output_index
 
 ## Usage:
 ```
-tecax-cli mnsync status
-tecax-cli getinfo
-tecax-cli masternode status #This command will show your masternode status
+Relarium-cli mnsync status
+Relarium-cli getinfo
+Relarium-cli masternode status #This command will show your masternode status
 ```
 
-Also, if you want to check/start/stop **tecax** , run one of the following commands as **root**:
+Also, if you want to check/start/stop **Relarium** , run one of the following commands as **root**:
 
 ```
-systemctl status Tecax #To check the service is running.
-systemctl start Tecax #To start Tecax service.
-systemctl stop Tecax #To stop Tecax service.
-systemctl is-enabled tecax #To check whetether Tecax service is enabled on boot or not.
+systemctl status Relarium #To check the service is running.
+systemctl start Relarium #To start Relarium service.
+systemctl stop Relarium #To stop Relarium service.
+systemctl is-enabled Relarium #To check whetether Relarium service is enabled on boot or not.
 ```
 ***
 
