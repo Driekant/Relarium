@@ -9,7 +9,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/Relarium/Relarium.git'
 COIN_TGZ='https://github.com/Driekant/Relarium/releases/download/1.0.0.0/relarium.tgz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Relarium'
+COIN_NAME='relarium'
 COIN_PORT=24620
 RPC_PORT=24621
 
