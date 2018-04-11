@@ -1,10 +1,10 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='Relarium.conf'
-CONFIGFOLDER='/root/.Relariumcore'
-COIN_DAEMON='Relariumd'
-COIN_CLI='Relarium-cli'
+CONFIG_FILE='relarium.conf'
+CONFIGFOLDER='/root/.relariumcore'
+COIN_DAEMON='relariumd'
+COIN_CLI='relarium-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/Relarium/Relarium.git'
 COIN_TGZ='https://github.com/Driekant/Relarium/releases/download/1.0.0.0/relarium.tgz'
