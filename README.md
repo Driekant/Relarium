@@ -4,7 +4,7 @@ Shell script to install a [Relarium Masternode](https://www.Relariumcrypto.com/)
 ***
 ## Installation:
 ```
-wget -q https://raw.githubusercontent.com/zoldur/Relarium/master/Relarium_install.sh
+wget -q https://raw.githubusercontent.com/Driekant/Relarium/master/Relarium_install.sh
 bash Relarium_install.sh
 ```
 ***
