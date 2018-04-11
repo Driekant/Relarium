@@ -2,16 +2,16 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='relarium.conf'
-CONFIGFOLDER='/root/.relarium'
+CONFIGFOLDER='/root/.Relarium'
 COIN_DAEMON='relariumd'
 COIN_CLI='relarium-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/Relarium/Relarium'
-COIN_TGZ='https://github.com/Driekant/Relarium/releases/download/1.0.0.2/relarium.tgz'
+COIN_TGZ='https://github.com/Driekant/Relarium/releases/download/1.0.0.3/relarium.tgz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='relarium'
 COIN_PORT=24620
-RPC_PORT=24621
+RPC_PORT=24630
 
 
 NODEIP=$(curl -s4 icanhazip.com)
