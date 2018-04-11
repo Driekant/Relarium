@@ -1,5 +1,5 @@
 # Relarium
-Shell script to install a [Relarium Masternode](https://www.Relariumcrypto.com/) on a Linux server running Ubuntu 16.04. Use it on your own risk.
+Shell script to install a [Relarium Masternode](https://relarium.com/) on a Linux server running Ubuntu 16.04. Use it on your own risk.
 
 ***
 ## Installation:
